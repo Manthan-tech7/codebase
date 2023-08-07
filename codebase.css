@@ -25,12 +25,16 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
+}
     
-    
+    .icon a{ 
+        text-decoration: none;
+    }
     
     
    
-}
+
+
 li{
     color: black !important;
     list-style-type: none;
@@ -44,6 +48,7 @@ li{
     color: white !important;
     background-color: #4E0FEA ;
     font-weight: bold;
+    border: none;
    
     border-radius: 5px;
 }
@@ -53,7 +58,7 @@ li{
     
 }
 .hehe {
-        width: 110px;
+        width: 129px;
         height: 78px;
     font-size: 25px;
     padding: 20px 0;
@@ -69,6 +74,7 @@ padding-top: 10px;
 align-items: center;
     justify-content: space-around;
  }
+ 
 
 .left h1{
    
@@ -157,12 +163,51 @@ img{
     opacity: 0.8;
     font-weight: bold;
 }
+.talent-container{
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+
+}
+.talent-one{
+    height: 514px;
+    width: 325px ;
+    border: black 1px solid;
+    margin-top: 40px;
+    margin-right: 23px;
+    font-size: 20px;
+    padding: 20px;
+    line-height: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.talent-one p{
+    font-size: 15px; 
+    gap: 10px;
+}
+.talent-button{
+     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+   align-items: center;
+   list-style: none;
+   border-radius: 50px;
+}
+.talent-box{
+    display: flex;
+    justify-content: space-around;
+}
+
 .big{
     background-image: url(universe.jpeg);
     width: 100%;
     height:800px;
     border: black solid 10px;
     color: white;
+    margin-top: 337px;
 }
 .container1{
     /* background-image: url(universe.jpeg);
@@ -180,6 +225,7 @@ img{
     background-size: cover;
     
     
+    
 }
 .yes{
     background-color: black;
@@ -189,14 +235,14 @@ img{
     width:420px;
     border: black solid 10px;
     border-radius: 20px;
-   margin:  20px auto;
+   margin:  10px auto;
     text-align: center;
     
    
    
    
 }
-.heading-bar{
+/* .heading-bar{
     background-color: #f1f1f1;
     padding:  40px 80px;
     margin: 20px;
@@ -226,10 +272,144 @@ margin: 2px 10px ;
  {
     background-color: #f1f1f1;
     width: 100%;
-padding: 20px;
+   
+    padding: 20px;
 
  }
 
 .abour h1{
     text-align: center;
+    font-size: 50px;
+} */
+.abour{
+    width: 100%;
+    height: 900px;
+    background-color: #f1f1f1;
 }
+.talent-box{
+    width: 400px ;
+    height: 200px;
+    text-align: center;
+    border: 2px transparent solid;
+    margin:  10px auto;
+    padding: 35px 0;
+    
+}
+.parent{
+    display: flex;
+    
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    padding-top: 10px;
+
+}
+
+.hire-left{
+    display : flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.flip{
+    display: flex;
+    gap: 20px;
+   
+    
+}
+.flip img{
+    height: 80px; 
+    width: 80px;
+
+}
+.box-hire{
+    width: 460px;
+    height: 100px;
+    border: 2px transparent solid;
+    margin: 50px 0px;
+    
+}
+.apply{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(97 45 242);
+    
+}
+.applyhead h1 {
+    color: white;
+    text-align: center;
+    /* margin: 150px; */
+    font-size: 50px;
+    padding: 14px;
+   
+}
+/* .hire-btn{
+    background-color: blue;
+    color: #f1f1f1;
+    font-size: large;
+} */
+.btn-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.tag{
+    color: #f1f1f1;
+    height: 50px;
+    width: 100px;
+    
+    align-items: start;
+    justify-content: center;
+    margin: 40px;
+  
+}
+.ones{
+    color: white;
+    background-color: blue;
+    height: 40px;
+    width: 120px;
+    border: 2px solid white;
+    padding: 2px;
+    margin:  50px 0px;
+    margin: auto;
+    justify-content: space-evenly;
+
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #4E0FEA;
+    /* border-top: white 2px solid; */
+    }
+    .logoend img{
+        width: 196px;
+        height: 36px;
+        object-fit: cover;
+        margin: 20px;
+    }
+    .footer-icon{
+        font-size: 25px;
+        margin: 0 35px;
+        display: flex;
+        justify-content: space-between;
+        
+      
+    }
+    .foot-bar a{
+        height: 20px;
+        width: 200px;
+        display: flex;
+        color: white;
+        text-decoration: none;
+       
+    }
+    .foot-bar{
+        list-style: none;
+        display: flex;
+        margin: 10px;
+        height: 10px;
+    
+    }
+    
